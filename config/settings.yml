@@ -1,0 +1,14 @@
+plugins:
+  initial_assign_to_grace_group_enabled:
+    default: true
+    client: true
+    type: bool
+    description: "Enable automatic assignment of new users to grace period group on first login"
+    
+  initial_assign_grace_group_id:
+    default: 42
+    client: false
+    type: integer
+    min: 1
+    description: "ID of the group to assign new users to on their first login (grace_period_users group)"
+    validator: "IntegerValidator"

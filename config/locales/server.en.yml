@@ -1,0 +1,11 @@
+en:
+  site_settings:
+    initial_assign_to_grace_group_enabled: "Enable automatic assignment to grace group"
+    initial_assign_grace_group_id: "Grace group ID"
+    
+  initial_assign_to_grace_group:
+    errors:
+      group_not_found: "Target group with ID %{group_id} not found"
+      assignment_failed: "Failed to assign user to grace group: %{error}"
+    success:
+      user_assigned: "User %{username} successfully assigned to grace group %{group_name}"
