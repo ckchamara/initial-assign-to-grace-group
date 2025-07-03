@@ -11,4 +11,3 @@ plugins:
     type: integer
     min: 1
     description: "ID of the group to assign new users to on their first login (grace_period_users group)"
-    validator: "IntegerValidator"
